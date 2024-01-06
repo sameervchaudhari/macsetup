@@ -16,6 +16,13 @@
         sudo mkdir /Users/username
         sudo chown username:staff /Users/username
 
+- To List All Users /Groups:
+-      dscl . list /Users
+       dscl . list /Users | grep -v '_'
+       dscl . list /Groups
+
+
+
 - Install homeBrew
          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
