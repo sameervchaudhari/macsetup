@@ -54,6 +54,8 @@
        brew help
 -   for updating pasword of user
 -     sudo passwd username
+-     su - username
+
 
 
 # Add more users as needed
