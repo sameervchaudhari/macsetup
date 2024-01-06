@@ -13,6 +13,9 @@
         sudo dscl . -create /Users/username PrimaryGroupID 20  # Set the primary group to 'staff'
         sudo dscl . -create /Users/username NFSHomeDirectory /Users/username
         sudo dscl . -passwd /Users/username YourPassword  # Set the user's password
+        sudo mkdir /Users/username
+        sudo chown username:staff /Users/username
+
 - Install homeBrew
          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
